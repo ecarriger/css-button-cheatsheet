@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+table {
+    width: 800px;
+    margin: 30px auto;
+    padding: 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+thead {
+    font-weight: bold;
+}
+thead h1 {
+    font-size: 18px;
+    text-align: center;
+}
+td {
+    padding: 5px;
+    margin: 0;
+    text-align: left;
+    border: 1px solid black;
+}
+button {
+    color: white;
+    background-color: darkolivegreen;
+    font-size: 18px;
+    font-family: Calibri, Sans;
+    margin: 20px auto;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 0 darkgray;
+    transition: all 0.2s;
+}
+button:hover {
+    cursor: pointer;
+    background-color: olivedrab;
+}
+button:active {
+    background-color: olive;
+}
