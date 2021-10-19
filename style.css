@@ -1,6 +1,9 @@
 body {
     text-align: center;
 }
+h1 {
+    color: steelblue;
+}
 table {
     width: 800px;
     margin: 30px auto;
@@ -14,6 +17,10 @@ thead {
 thead h1 {
     font-size: 18px;
     text-align: center;
+    color: steelblue;
+}
+tbody td:first-child, tbody td:last-child {
+    font-family: monospace;
 }
 td {
     padding: 5px;
